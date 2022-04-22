@@ -12,7 +12,7 @@ interface DeviceIconProps {
 
 const deviceScreenStyles: BoxProps[] = [
   {
-    w: "171px",
+    w: "161px",
     h: "90px",
     border: "5px solid black",
     borderRadius: "10px 10px 0px 0px",
@@ -78,7 +78,7 @@ export const DeviceIcon = (props: DeviceIconProps) => {
       {/* imac base */}
       <Box
         w="100%"
-        h={props.status === DeviceStatus.Imac ? "11px" : "0px"}
+        h={props.status === DeviceStatus.Imac ? "21px" : "0px"}
         bgColor="#D4D1D3"
         borderRadius="0px 0px 4px 4px"
         transition=".3s"
